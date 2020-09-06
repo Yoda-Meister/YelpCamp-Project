@@ -1,0 +1,19 @@
+{
+  "name": "yelpcamp",
+  "version": "1.0.0",
+  "description": "YelpCamp project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yoda-Meister/YelpCamp-Project.git"
+  },
+  "author": "Waleed Joda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yoda-Meister/YelpCamp-Project/issues"
+  },
+  "homepage": "https://github.com/Yoda-Meister/YelpCamp-Project#readme"
+}
