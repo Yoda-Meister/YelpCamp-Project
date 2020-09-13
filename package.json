@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Yoda-Meister/YelpCamp-Project/issues"
   },
-  "homepage": "https://github.com/Yoda-Meister/YelpCamp-Project#readme"
+  "homepage": "https://github.com/Yoda-Meister/YelpCamp-Project#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
 }

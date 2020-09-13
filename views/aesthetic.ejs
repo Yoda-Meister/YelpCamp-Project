@@ -1,3 +1,5 @@
+<%- include ("partials/header") -%>
+
 <h1>asthetic page</h1>
 
 <% aesthetic.forEach((aesthetic) => { %>
@@ -6,3 +8,5 @@
         <img src="<%= aesthetic.image%>" alt="">
     </div>
 <% }) %>
+
+<%- include ("partials/footer") -%>
