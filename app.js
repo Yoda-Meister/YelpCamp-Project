@@ -8,13 +8,22 @@ app.get("/", (req, res) =>{
     res.render("landing")
 })
 
-app.get("/asthetic", (req, res) =>{
-    let campgrounds = [
-        {name: "Salmon Creek", image: ""},
-        {name: "Garanite Hill", image: ""},
-        {name: "Ganat camp", image: ""}
+app.get("/aesthetic", (req, res) =>{
+    let aesthetic = [
+        {
+            name: "Salmon Creek",
+            image: "https://i.pinimg.com/originals/1c/74/30/1c743094b32e4fdf2c448bcba8bd4161.jpg"
+        },
+        {
+            name: "Garanite Hill",
+            image: "https://i.ytimg.com/vi/-ROAj71OiUU/maxresdefault.jpg"
+        },
+        {
+            name: "Ganat camp",
+            image: "https://wallpapercave.com/wp/wp4751466.jpg"
+        }
     ]
-    res.render("asthetic")
+    res.render("aesthetic", {aesthetic:aesthetic});
 })
 
 app.listen(8000, process.env.IP, () =>{
